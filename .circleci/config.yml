@@ -29,8 +29,12 @@ jobs:
           name: Deploy to Railway App
           command: |
             cd bankchurn-api
+<<<<<<< HEAD
             railway up --service=pacific-clarity
             railway up --detach
+=======
+            railway up --service=divine-education
+>>>>>>> 4cc9d4e (Actualizar servicio Railway (divine-education))
 
 
 tags_only: &tags_only
